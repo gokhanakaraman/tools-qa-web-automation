@@ -2,7 +2,9 @@ HomePage Tests
 ==============
 
 
-Checking Cards in the HomePage
----------------
+Checking HomePage Elements
+--------------------------
 *Go to the home page
-*Check "Elements" card in the homepage
+*Verify homepage
+*Click "Elements" card in the homepage
+*Verify Elements page

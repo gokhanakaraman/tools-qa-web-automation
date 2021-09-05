@@ -7,8 +7,13 @@ public class HomePageSteps {
 
     private static HomePage homePage = new HomePage();
 
-    @Step("Check <cardTitle> card in the homepage")
-    public void checkCardInThePage(String cardTitle) throws Exception {
-        homePage.verifyCard(cardTitle);
+    @Step("Verify homepage")
+    public void verifyHomePage() throws Exception {
+        homePage.isHomePageDisplayed();
+    }
+
+    @Step("Click <cardTitle> card in the homepage")
+    public void clickCard(String cardTitle) {
+        homePage.selectCardWithTitle(cardTitle);
     }
 }

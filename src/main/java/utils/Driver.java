@@ -42,10 +42,11 @@ public class Driver {
         JavascriptExecutor js = (JavascriptExecutor) webDriver;
         js.executeScript("window.scrollBy(0,-1000)");
         webDriver.manage().deleteAllCookies();
+        //webDriver.quit();
     }
 
     @AfterSuite
     public void quit() {
-        // webDriver.quit();
+       // webDriver.quit();
     }
 }

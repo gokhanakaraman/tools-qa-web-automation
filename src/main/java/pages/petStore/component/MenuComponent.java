@@ -8,24 +8,20 @@ import org.openqa.selenium.support.PageFactory;
 
 import static utils.Driver.webDriver;
 
-public class CardComponent extends WebComponent {
+public class MenuComponent extends WebComponent {
 
-    @FindBy(css = "[class*='avatar mx-auto white']")
-    private WebElement cardIcon;
+    @FindBy(css = "[class*='btn btn-light'] [class*='text']")
+    private WebElement itemTitle;
 
-    @FindBy(css = "[class*='card-body']")
-    private WebElement cardTitle;
-
-    public CardComponent() {
+    public MenuComponent() {
         PageFactory.initElements(new WebDriverExtensionFieldDecorator(webDriver), this);
     }
 
-    public void clickCard() {
-        cardTitle.click();
+    public void clickItem() {
+        itemTitle.click();
     }
 
-    public String getCardTitle() {
-        return cardTitle.getText();
+    public String getMenuItemTitle() {
+        return itemTitle.getText();
     }
-
 }
