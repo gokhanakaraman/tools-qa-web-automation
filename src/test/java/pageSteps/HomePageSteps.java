@@ -1,7 +1,7 @@
 package pageSteps;
 
 import com.thoughtworks.gauge.Step;
-import pages.petStore.HomePage;
+import pages.toolsQa.HomePage;
 
 public class HomePageSteps {
 

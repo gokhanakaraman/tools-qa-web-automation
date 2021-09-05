@@ -1,4 +1,4 @@
-package pages.petStore.component;
+package pages.toolsQa.component;
 
 import com.github.webdriverextensions.WebComponent;
 import com.github.webdriverextensions.WebDriverExtensionFieldDecorator;

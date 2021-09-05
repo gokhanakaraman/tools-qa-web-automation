@@ -1,4 +1,4 @@
-package pages.petStore.model;
+package pages.toolsQa.model;
 
 import com.github.webdriverextensions.WebDriverExtensionFieldDecorator;
 import org.openqa.selenium.WebElement;

@@ -1,9 +1,9 @@
-package pages.petStore;
+package pages.toolsQa;
 
 import helpers.Helper;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import pages.petStore.component.CardComponent;
+import pages.toolsQa.component.CardComponent;
 
 import java.util.List;
 

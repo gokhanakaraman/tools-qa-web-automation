@@ -2,8 +2,8 @@ package pageSteps;
 
 import com.thoughtworks.gauge.Step;
 import org.junit.Assert;
-import pages.petStore.ElementsPage;
-import pages.petStore.model.TextBoxModel;
+import pages.toolsQa.ElementsPage;
+import pages.toolsQa.model.TextBoxModel;
 
 public class ElementsPageSteps {
 
